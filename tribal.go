@@ -31,8 +31,6 @@ func main() {
 }
 
 func getChuck(w http.ResponseWriter, r *http.Request) {
-
-	var notUsed = ""
 	num := 25
 	chucks := make([]Chuck, 0)
 	var unique = make(map[string]bool)
